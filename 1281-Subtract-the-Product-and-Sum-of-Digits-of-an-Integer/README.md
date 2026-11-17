@@ -39,6 +39,8 @@ Result = 32 - 11 = 21
 ## Solution
 
 - **Language**: C++
+- **Runtime**: 0 ms
+- **Memory**: 7.9 MB
 
 ---
 
