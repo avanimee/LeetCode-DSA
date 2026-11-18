@@ -40,7 +40,7 @@ Result = 32 - 11 = 21
 
 - **Language**: C++
 - **Runtime**: 0 ms
-- **Memory**: 7.9 MB
+- **Memory**: 7.8 MB
 
 ---
 
