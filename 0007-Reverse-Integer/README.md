@@ -39,8 +39,8 @@ Example 3:
 ## Solution
 
 - **Language**: C++
-- **Runtime**: 1 ms
-- **Memory**: 7.8 MB
+- **Runtime**: 2 ms
+- **Memory**: 8.4 MB
 
 ---
 
