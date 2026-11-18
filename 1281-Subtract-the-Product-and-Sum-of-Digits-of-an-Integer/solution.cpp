@@ -1,18 +1,19 @@
 class Solution {
 public:
-    int subtractProductAndSum(int n) {
-        int product = 1;
-        int sum = 0;
+    int hammingWeight(int n) {
+        
+        int count=0;
 
         while(n!=0){
+         int rem= n%2;
 
-            int rem = n%10;
-            product = product * rem;
-            sum=sum+rem;
-            n=n/10;
+         if(rem==1){
+            count++;
+         }
+         n=n/2;
         }
-
-        int answer=product-sum;
-        return answer;
+        return count;
     }
 };
+
+
