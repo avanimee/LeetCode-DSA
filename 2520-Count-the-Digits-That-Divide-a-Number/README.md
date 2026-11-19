@@ -44,8 +44,6 @@ An integer `val` divides `nums` if `nums % val == 0`.
 ## Solution
 
 - **Language**: C++
-- **Runtime**: 0 ms
-- **Memory**: 7.7 MB
 
 ---
 
