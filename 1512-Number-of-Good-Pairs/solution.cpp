@@ -1,15 +1,18 @@
 class Solution {
 public:
-    int numIdenticalPairs(vector<int>& nums) {
-        int count=0;
+    vector<string> fizzBuzz(int n) {
+        vector<string>ans;
 
-        for (int i=0;i<nums.size();i++){
-            for (int j=i+1;j<nums.size();j++){
-                if(nums[i]==nums[j]){
-                    count++;
-                }
-            }
+        for(int i =0;i<=n;i++){
+            if(i%3==0 && i%5==0)
+              ans.push_back("FizzBuzz");
+            else if(i%3==0)
+              ans.push_back("FizzBuzz");
+            else if(i%5==0)
+              ans.push_back("FizzBuzz");
+            else
+              ans.push_back(to_string(i));
         }
-        return count;
+        return ans;
     }
 };
