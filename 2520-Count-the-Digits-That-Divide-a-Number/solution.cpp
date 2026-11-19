@@ -6,7 +6,7 @@ public:
 
         while(x>0){
             int digit=x%10;
-            int rev=rev*10+digit;
+            rev=rev*10+digit;
             x=x/10;
 
         }
