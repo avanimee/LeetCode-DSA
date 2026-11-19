@@ -1,15 +1,18 @@
 class Solution {
 public:
-    int reverse(int n) {
-        int rev=0;
-        while(n!=0){
-            int rem = n%10;
-            if(rev>INT_MAX/10 || rev<INT_MIN/10){
-                return 0;
-            }
-            rev = rev * 10 + rem;
-            n = n / 10;
+    int findNumbers(vector<int>& nums) {
+        int count=0;
+        for (int i=0;i<nums.size();i++){
+            int num=nums[i];
+            int digits=0;
+        while(num!=0){
+            digits++;
+            num=num/10;
+         }
+         if(digits%2==0){
+            count++;
+         }
         }
-        return rev;
+        return count;
     }
 };
