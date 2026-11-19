@@ -1,15 +1,15 @@
 class Solution {
 public:
-    int countDigits(int num) {
-        int count=0;
-        int n=num;
-        while(n!=0){
-            int digit=n%10;
-            if(num%digit==0){
-                count++;
-            }
-            n=n/10;
+    bool isPalindrome(int x) {
+        int original=x;
+        int rev=0;
+
+        while(x!=0){
+            int digit=x%10;
+            int rev=rev*10+digit;
+            x=x/10;
+
         }
-        return count;
+        return original==rev;
     }
 };
